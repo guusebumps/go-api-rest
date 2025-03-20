@@ -6,8 +6,9 @@ import (
 	"golang-todo-api/db"
 	"golang-todo-api/models"
 	"net/http"
-	"github.com/gorilla/mux"
 	"strconv"
+
+	"github.com/gorilla/mux"
 )
 
 func GetTasks(w http.ResponseWriter, r *http.Request) {
